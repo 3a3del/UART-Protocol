@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_UART_func_synth.v" \
+"../../../../../UART_Protocol.srcs/sim_1/new/UART_tb.v" \
+
+# Do not sort compile order
+nosort
